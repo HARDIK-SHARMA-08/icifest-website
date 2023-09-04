@@ -83,7 +83,7 @@ const Navbar = () => {
                                     <Link to="/">HOME</Link>
                                 </li>
                                 <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
-                                    <a href="https://drive.google.com/drive/folders/1y3hMlWEWZzpL_iN8EpH9gIPhBKFBIDQ4?usp=sharing" target="blank">GALLERY</a>
+                                <Link to="/gallery">GALLERY</Link>
                                 </li>
                                 <li className="hover:border-b-[3px] duration-100 px-[10px] hover:pb-[8px] border-[#ff583e]">
                                     <Link to="/aboutteam">ABOUT</Link>
@@ -96,7 +96,7 @@ const Navbar = () => {
                         <div >
                             <ul className="nav-menu flex xl:hidden ">
                                 <li className="nav-link"><a href="/">Home</a></li>
-                                <li className="nav-link"><a href="https://drive.google.com/drive/folders/1y3hMlWEWZzpL_iN8EpH9gIPhBKFBIDQ4?usp=sharing" target="blank">Gallery</a></li>
+                                <li className="nav-link"><Link to="/gallery">Gallery</Link></li>
                                 <li className="nav-link"><Link to="/aboutteam">About</Link></li>
                                 <li className="nav-link"><Link to="/events">Events</Link></li>
                                 <li className="block md:hidden nav-link"><Link to="/events">
