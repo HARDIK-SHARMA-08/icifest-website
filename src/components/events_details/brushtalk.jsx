@@ -45,7 +45,7 @@ const BRUSHTALK = () => {
                 </span>
               </div>
               <div className="mt-[10px]">
-                <span>Time - 09:00 am to 11:00 am</span>
+                <span>Time - 01:00 pm to 02:00 pm</span>
               </div>
               <div className="mt-[10px]">
                 <span>Venue</span>
@@ -58,11 +58,11 @@ const BRUSHTALK = () => {
               <span>Registration Fee - ₹50 per individual</span>
             </div>
             <a href="https://erp.skit.ac.in/register/r/letthebrushtalk">
-            <div className="mt-[10px] font-semibold">
+              <div className="mt-[10px] font-semibold">
                 <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center">
                   Register Now
                 </button>
-            </div>
+              </div>
             </a>
           </div>
         </div>

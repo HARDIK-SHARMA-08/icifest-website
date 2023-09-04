@@ -3,11 +3,10 @@ import { Link } from "react-router-dom";
 
 const materialData = [
   { material: "Plaster of Paris", quantity: "2 kg" },
-  { material: "Cloth", quantity: "1" },
+  { material: "Cloth (Sack)", quantity: "1" },
   { material: "Bucket (mould)", quantity: "1" },
   { material: "Polythene", quantity: "2" },
-  { material: "Mixing Container", quantity: "1" },
-  { material: "Gloves", quantity: "1" },
+  { material: "Pan", quantity: "1" },
   { material: "Colours (Red, Green, Blue)", quantity: "40g each" },
   { material: "Paintbrush", quantity: "1" },
   { material: "Disposable glass", quantity: "3" },
@@ -126,9 +125,9 @@ const MIXANDMOULD = () => {
           <div className="flex justify-center mt-[20px]">
             <div className={activeButton === 0 ? "active-div" : "deactive-div"}>
               <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">
-                    EVENT DESCRIPTION
+                <div className=" mb-[10px] ">
+                  <span className="font-bold  text-[20px] underline  ">
+                    PROBLEM STATEMENT
                   </span>
                 </div>
                 <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
@@ -141,6 +140,7 @@ const MIXANDMOULD = () => {
                   </span>
                 </div>
               </div>
+
               <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] underline">
                   <span className="font-bold  text-[20px]">PARTICIPATION</span>
@@ -151,19 +151,7 @@ const MIXANDMOULD = () => {
                   </span>
                 </div>
               </div>
-              <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] ">
-                  <span className="font-bold  text-[20px] underline  ">
-                    PROBLEM STATEMENT
-                  </span>
-                </div>
-                <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
-                  <span className="text-[17px] font-semibold">
-                    Your task is to mould a cloth into a pot by mixing it with
-                    POP and also decorate it according to the theme.
-                  </span>
-                </div>
-              </div>
+
               <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] underline">
                   <span className="font-bold  text-[20px]">

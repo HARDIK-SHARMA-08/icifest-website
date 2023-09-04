@@ -91,29 +91,6 @@ const CRACKTHECAD = () => {
 
           <div className="flex justify-center mt-[20px]">
             <div className={activeButton === 0 ? "active-div" : "deactive-div"}>
-              <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">
-                    EVENT DESCRIPTION
-                  </span>
-                </div>
-                <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
-                  <span className="text-[17px] font-semibold">
-                    Your task is to design a residential house using AutoCAD
-                    software.
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
-                </div>
-                <div>
-                  <span className="font-semibold text-[17px]">
-                    Participate Individually.
-                  </span>
-                </div>
-              </div>
               <div className="text-center  mb-[50px] font-semibold">
                 <div className=" mb-[10px] ">
                   <span className="font-bold  text-[20px] underline  ">
@@ -122,13 +99,28 @@ const CRACKTHECAD = () => {
                 </div>
                 <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
                   <span className="text-[17px] ">
-                    Design a residential house with a footprint of 30' by 60'
-                    using AutoCAD, incorporating essential elements to meet the
-                    basic residential requirements. The design should ensure
-                    optimal space utilization, functionality, and a balanced
-                    integration of indoor and outdoor spaces.
+                    Your task is to design a residential house using AutoCAD
+                    software.Design a residential house with a footprint of 30'
+                    by 60' using AutoCAD, incorporating essential elements to
+                    meet the basic residential requirements. The design should
+                    ensure optimal space utilization, functionality, and a
+                    balanced integration of indoor and outdoor spaces.
                   </span>
                 </div>
+
+                <div className="text-center my-[30px] ">
+                  <div className=" mb-[10px] underline">
+                    <span className="font-bold  text-[20px]">
+                      PARTICIPATION
+                    </span>
+                  </div>
+                  <div>
+                    <span className="font-semibold text-[17px]">
+                      Participate Individually.
+                    </span>
+                  </div>
+                </div>
+
                 <div className="mx-[10px] flex justify-center">
                   <div>
                     <div className="mt-[10px] ">
@@ -145,15 +137,6 @@ const CRACKTHECAD = () => {
                         with shared bathrooms, Home office/study room, Utility
                         room
                       </span>
-                      {/* <ul>
-                                                <li>Living room</li>
-                                                <li>Dining room</li>
-                                                <li>Kitchen with adequate countertop space and storage</li>
-                                                <li>Master bedroom with attached bathroom</li>
-                                                <li>Additional bedrooms with shared bathrooms</li>
-                                                <li>Home office/study room</li>
-                                                <li>Utility room</li>
-                                            </ul> */}
                     </div>
                   </div>
                 </div>

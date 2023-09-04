@@ -10,7 +10,6 @@ const materialData = [
   { material: "Sand", quantity: "15 Kg" },
   { material: "Water", quantity: "4 Liters" },
   { material: "Hand Pan", quantity: "2" },
-  { material: "Threads", quantity: "If needed" },
 ];
 
 const BOB = () => {
@@ -61,7 +60,7 @@ const BOB = () => {
             <a href="https://erp.skit.ac.in/register/r/brickObrick">
             <div className="mt-[10px] font-semibold">
               <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center">
-                <Link to="/registrations">Register Now</Link>
+                Register Now
               </button>
             </div>
             </a>
@@ -109,30 +108,6 @@ const BOB = () => {
           <div className="flex justify-center mt-[20px]">
             <div className={activeButton === 0 ? "active-div" : "deactive-div"}>
               <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">
-                    EVENT DESCRIPTION
-                  </span>
-                </div>
-                <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
-                  <span className="text-[17px] font-semibold">
-                    In this event, all the teams have to construct a L-Shaped
-                    step walls using bricks. The walls will be checked for
-                    stability and safety.
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
-                </div>
-                <div>
-                  <span className="font-semibold text-[17px]">
-                    All the teams must have 4 memebers each.
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] ">
                   <span className="font-bold  text-[20px] underline  ">
                     PROBLEM STATEMENT
@@ -164,6 +139,18 @@ const BOB = () => {
                   </div>
                 </div>
               </div>
+
+              <div className="text-center  mb-[50px]">
+                <div className=" mb-[10px] underline">
+                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
+                </div>
+                <div>
+                  <span className="font-semibold text-[17px]">
+                    All the teams must have 4 members each.
+                  </span>
+                </div>
+              </div>
+
               <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] underline">
                   <span className="font-bold  text-[20px]">
@@ -246,7 +233,7 @@ const BOB = () => {
                   <span>4. Straightness of wall.</span>
                 </div>
                 <div>
-                  <span>5. Space of each step must be same.</span>
+                  <span>5. Length of each step must be same.</span>
                 </div>
               </div>
             </div>

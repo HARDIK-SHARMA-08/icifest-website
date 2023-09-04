@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-
 const materialData = [
   { material: "Dowel Sticks", quantity: "100 Sticks" },
   { material: "Adhesive Fevicol", quantity: "1" },
@@ -50,7 +48,7 @@ const QUAKE = () => {
                 <span>Time</span>
               </div>
               <div>
-                <span>Round 1 - 01:00 pm to 03:30 pm</span>
+                <span>Round 1 - 01:00 pm to 03:00 pm</span>
               </div>
               <div>
                 <span>Round 2 - 08:15 am to 11:00 am</span>
@@ -121,29 +119,6 @@ const QUAKE = () => {
           <div className="flex justify-center mt-[20px]">
             <div className={activeButton === 0 ? "active-div" : "deactive-div"}>
               <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">
-                    EVENT DESCRIPTION
-                  </span>
-                </div>
-                <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
-                  <span className="text-[17px] font-semibold">
-                    Your task is to design and build a model of earthquake
-                    resistant building out of Dowel Sticks and Thread.
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
-                </div>
-                <div>
-                  <span className="font-semibold text-[17px]">
-                    Each teams must have 4 members.
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] ">
                   <span className="font-bold  text-[20px] underline  ">
                     PROBLEM STATEMENT
@@ -151,8 +126,20 @@ const QUAKE = () => {
                 </div>
                 <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
                   <span className="text-[17px] font-semibold">
-                    Your task is to design and build a model of earthquake
-                    resistant building out of Dowel Sticks and Thread.
+                    In recent years, the escalating frequency and intensity of
+                    seismic activities have underscored the critical need for
+                    constructing buildings with the capability to withstand and
+                    mitigate the destructive forces of earthquakes. The inherent
+                    vulnerabilities of conventional building designs have been
+                    evident in the widespread devastation caused by earthquakes,
+                    leading to loss of lives, infrastructure, and economic
+                    stability. Thus, there is an urgent requirement to address
+                    this issue by creating innovative and effective solutions
+                    that ensure the construction of earthquake-resistant
+                    buildings. Your group will form an engineering firm that
+                    will design and build a model earthquake resistant building
+                    out of Dowel sticks and adhesive. The building base should
+                    be 13/13 cm and height should be minimum 60 cm.
                   </span>
                 </div>
                 <div className="mt-[20px]">
@@ -167,6 +154,18 @@ const QUAKE = () => {
                   </div>
                 </div>
               </div>
+
+              <div className="text-center  mb-[50px]">
+                <div className=" mb-[10px] underline">
+                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
+                </div>
+                <div>
+                  <span className="font-semibold text-[17px]">
+                    Each teams must have 4 members.
+                  </span>
+                </div>
+              </div>
+
               <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] underline">
                   <span className="font-bold  text-[20px]">
@@ -256,7 +255,7 @@ const QUAKE = () => {
                   <span>Width - 12-15 cm</span>
                 </div>
                 <div>
-                  <span>Height - 60-70 cm</span>
+                  <span>Height - 60 cm (minimum)</span>
                 </div>
 
                 <div className="mt-[10px]">

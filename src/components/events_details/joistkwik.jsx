@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { bob_img, joist_img } from "../../assets";
 
 const materialData = [
-  { material: "Flat Ice-Cream Sticks", quantity: "50" },
-  { material: "Adhesive Glue", quantity: "As required" },
+  { material: "Flat Ice-Cream Sticks", quantity: "100" },
+  { material: "Adhesive Glue", quantity: "-" },
   { material: "Ruler, Paper Clips etc", quantity: "-" },
 ];
 
@@ -121,29 +121,6 @@ const JK = () => {
           <div className="flex justify-center mt-[20px]">
             <div className={activeButton === 0 ? "active-div" : "deactive-div"}>
               <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">
-                    EVENT DESCRIPTION
-                  </span>
-                </div>
-                <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
-                  <span className="text-[17px] font-semibold">
-                    Design and construct a load-bearing bridge using only the
-                    provided materials.
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
-                </div>
-                <div>
-                  <span className="font-semibold text-[17px]">
-                    Each team must have 4 members.
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] ">
                   <span className="font-bold  text-[20px] underline  ">
                     PROBLEM STATEMENT
@@ -159,7 +136,9 @@ const JK = () => {
                     maximum strength-to-weight ratio.
                   </span>
                 </div>
-                {/* <div className='flex justify-center'><img src={joist_img} className='w-[350px]' /></div> */}
+                <div className="flex justify-center mt-[20px] mx-[20px]">
+                  <img src={joist_img} className="w-[350px]" />
+                </div>
                 <div className="mt-[20px]">
                   <span className="font-semibold">Dimensions</span>
                 </div>
@@ -172,6 +151,18 @@ const JK = () => {
                   </div>
                 </div>
               </div>
+
+              <div className="text-center  mb-[50px]">
+                <div className=" mb-[10px] underline">
+                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
+                </div>
+                <div>
+                  <span className="font-semibold text-[17px]">
+                    Each team must have 4 members.
+                  </span>
+                </div>
+              </div>
+
               <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] underline">
                   <span className="font-bold  text-[20px]">
@@ -212,20 +203,21 @@ const JK = () => {
                 The event will be conducted in <span> 2 rounds</span>
               </span>
             </div>
-            <div className="flex justify-center mt-[10px] mx-[20px]">
+            <div className="flex justify-center mt-[10px] mx-[20px] ">
               <div>
                 <div>
                   <span>
                     <b>Round 1</b>
                     <br />
-                    15th September, 2023 | 11:30 am - 01:30 pm
+                    You will be given <b>2 hours </b>to make the bridge in give
+                    time submit the model for next round.
                   </span>
                 </div>
                 <div>
                   <span>
                     <b>Round 2</b>
                     <br />
-                    16th September, 2023 | 08:30 am - 11:00 am
+                    Testing of model
                   </span>
                 </div>
               </div>

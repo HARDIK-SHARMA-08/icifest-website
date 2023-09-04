@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const materialData = [{ material: "A4 Size Sheets", quantity: "2-3" }];
 
@@ -38,7 +39,7 @@ const ARTOFPERSUASION = () => {
                 </span>
               </div>
               <div className="mt-[10px]">
-                <span>Time - 11:00 am - 12:30 pm</span>
+                <span>Time - 11:30 am - 12:30 pm</span>
               </div>
               <div className="mt-[10px]">
                 <span>Venue - COS Lab 2nd Floor, Civil Block</span>
@@ -100,18 +101,29 @@ const ARTOFPERSUASION = () => {
           <div className="flex justify-center mt-[20px]">
             <div className={activeButton === 0 ? "active-div" : "deactive-div"}>
               <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">
-                    EVENT DESCRIPTION
+                <div className=" mb-[10px] ">
+                  <span className="font-bold  text-[20px] underline  ">
+                    PROBLEM STATEMENT
                   </span>
                 </div>
                 <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
-                  <span className="text-[17px] font-semibold">
+                  <span className="text-[18px] font-semibold">
                     It's an essay writing. Participants will have to write an
-                    essay on the provided topic .
+                    essay on the provided topic.{" "}
+                  </span>
+                  <span className="text-[18px] font-bold ">
+                    {" "}
+                    <br />
+                    Topic - "Beyond Blueprints: Integrating multidisciplinary
+                    knowledge into civil engineering".
                   </span>
                 </div>
+                <div>
+                  <span className="font-semibold">Word Limit: </span>
+                  <span> 600 - 750 words</span>
+                </div>
               </div>
+
               <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] underline">
                   <span className="font-bold  text-[20px]">PARTICIPATION</span>
@@ -122,24 +134,7 @@ const ARTOFPERSUASION = () => {
                   </span>
                 </div>
               </div>
-              <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] ">
-                  <span className="font-bold  text-[20px] underline  ">
-                    PROBLEM STATEMENT
-                  </span>
-                </div>
-                <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
-                  <span className="text-[18px] font-bold ">
-                    {" "}
-                    Topic - "Beyond Blueprints: Integrating multidisciplinary
-                    knowledge into civil engineering".
-                  </span>
-                </div>
-                <div>
-                  <span className="font-semibold">Word Limit: </span>
-                  <span> 600 - 750 words</span>
-                </div>
-              </div>
+
               <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] underline">
                   <span className="font-bold  text-[20px]">

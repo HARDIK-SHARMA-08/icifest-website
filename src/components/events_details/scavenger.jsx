@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 const SH = () => {
   const [activeButton, setActiveButton] = useState(0);
@@ -34,7 +33,7 @@ const SH = () => {
               <div className="mt-[10px]">
                 <span>Time - 09:00 am to 10:30 am</span>
               </div>
-              {/* <div className='mt-[10px]'><span>Venue</span></div> */}
+              {/* <div className='mt-[10px]'><span>Venue - </span></div> */}
               {/* <div><span>Tech zone in football ground</span></div> */}
             </div>
             <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 ">
@@ -46,11 +45,12 @@ const SH = () => {
               </span>
             </div>
             <a href="https://erp.skit.ac.in/register/r/scavengehunt">
-            <div className="mt-[10px] font-semibold">
-              <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center">
-                Register Now
-              </button>
-            </div></a>
+              <div className="mt-[10px] font-semibold">
+                <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center">
+                  Register Now
+                </button>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -102,11 +102,12 @@ const SH = () => {
                 </div>
                 <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
                   <span className="text-[17px] font-semibold">
-                    This scavenger hunt is not the common one. This time it is a
-                    trivia hunt. Scavenger hunt is a game in which the
-                    organizers prepare a list of specific items, challenges, or
-                    activities that the participants must find, complete, or
-                    perform. There are 7 levels in the game. .
+                    This scavenger hunt is going to be one of the thrilling and
+                    inspiring events of ICI FEST 2023. Scavenger hunt is a game
+                    in which the organizers prepare a list of specific items,
+                    challenges, or activities that the participants must find,
+                    complete, or perform. There are 7 levels in the game. All
+                    the levels are contrary and stimulating.
                   </span>
                 </div>
                 <div className="text-left flex justify-center">
@@ -129,6 +130,10 @@ const SH = () => {
                         <li>
                           4. Use of unfair means and gossip with other teams is
                           not allowed.
+                        </li>
+                        <li>
+                          5. . All the 4 members should be present at the time
+                          of answer checking.
                         </li>
                       </ul>
                     </div>

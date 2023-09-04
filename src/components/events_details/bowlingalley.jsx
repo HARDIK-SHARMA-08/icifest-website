@@ -1,16 +1,15 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { bowling_img } from "../../assets";
 
 const materialData = [
-  { material: "Cement", quantity: "3.5 kg" },
+  { material: "Cement", quantity: "3 kg" },
   { material: "Fine Sand", quantity: "2 kg" },
   { material: "Mould", quantity: "1" },
   { material: "Poly Bags", quantity: "1" },
   { material: "Trovel and Pans", quantity: "1" },
-  { material: "Gloves", quantity: "1" },
   { material: "Bottles", quantity: "1" },
-  { material: "Cement Bags", quantity: "1" },
 ];
 
 const BA = () => {
@@ -55,7 +54,7 @@ const BA = () => {
                 <span>Time</span>
               </div>
               <div>
-                <span>Round 1 - 11:00 PM to 12:30 PM</span>
+                <span>Round 1 - 11:30 PM to 01:00 PM</span>
               </div>
               <div>
                 <span>Round 2 - 08:15 AM to 11:00 AM</span>
@@ -126,29 +125,6 @@ const BA = () => {
           <div className="flex justify-center mt-[20px]">
             <div className={activeButton === 0 ? "active-div" : "deactive-div"}>
               <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">
-                    EVENT DESCRIPTION
-                  </span>
-                </div>
-                <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
-                  <span className="text-[17px] font-semibold">
-                    Cast a perfect ball using cement concrete and hit the brick
-                    pins aiming maximum score
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
-                </div>
-                <div>
-                  <span className="font-semibold text-[17px]">
-                    In teams. Must have 4 members each.
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] ">
                   <span className="font-bold  text-[20px] underline  ">
                     PROBLEM STATEMENT
@@ -161,6 +137,18 @@ const BA = () => {
                   </span>
                 </div>
               </div>
+
+              <div className="text-center  mb-[50px]">
+                <div className=" mb-[10px] underline">
+                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
+                </div>
+                <div>
+                  <span className="font-semibold text-[17px]">
+                    In teams. Must have 4 members each.
+                  </span>
+                </div>
+              </div>
+
               <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] underline">
                   <span className="font-bold  text-[20px]">

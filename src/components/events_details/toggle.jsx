@@ -32,7 +32,7 @@ const TOGGLE = () => {
                 </span>
               </div>
               <div className="mt-[10px]">
-                <span>Time - 11:00 am to 12:30 pm</span>
+                <span>Time - 11:00 am to 01:30 pm</span>
               </div>
               <div className="mt-[10px]">
                 <span>Venue - Communication Skills Lab</span>
@@ -95,29 +95,6 @@ const TOGGLE = () => {
           <div className="flex justify-center mt-[20px]">
             <div className={activeButton === 0 ? "active-div" : "deactive-div"}>
               <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">
-                    EVENT DESCRIPTION
-                  </span>
-                </div>
-                <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
-                  <span className="text-[17px] font-semibold">
-                    Participants will be provided a topic and they have to speak
-                    on it.
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
-                </div>
-                <div>
-                  <span className="font-semibold text-[17px]">
-                    Individual Participation
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] ">
                   <span className="font-bold  text-[20px] underline  ">
                     PROBLEM STATEMENT
@@ -134,6 +111,17 @@ const TOGGLE = () => {
                   </span>
                 </div>
               </div>
+
+              <div className="text-center  mb-[50px]">
+                <div className=" mb-[10px] underline">
+                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
+                </div>
+                <div>
+                  <span className="font-semibold text-[17px]">
+                    Individual Participation
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
           <div
@@ -144,7 +132,7 @@ const TOGGLE = () => {
             <div className="text-center mx-[10px]">
               <span className="font-semibold">
                 Each participant will be allotted a 3-minute speaking slot and
-                will be given 3 minutes of preparation time before their turn to
+                will be given 4 minutes of preparation time before their turn to
                 speak.
               </span>
             </div>

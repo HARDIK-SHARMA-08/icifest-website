@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { tower_img } from "../../assets";
 
 const materialData = [
-  { material: "Newspaper", quantity: "30 sheets" },
+  { material: "Newspaper", quantity: "30 single sheets" },
   { material: "Adhesive Tape", quantity: "2" },
   { material: "Paper Cutter", quantity: "1" },
 ];
@@ -43,7 +43,7 @@ const TOWER = () => {
                 <span>Time - 12:30 PM to 02:00 PM</span>
               </div>
               <div className="mt-[10px]">
-                <span>Venue - Tech zone in football ground</span>
+                <span>Venue - Badminton Court, Civil Block</span>
               </div>
             </div>
             <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 ">
@@ -104,30 +104,6 @@ const TOWER = () => {
           <div className="flex justify-center mt-[20px]">
             <div className={activeButton === 0 ? "active-div" : "deactive-div"}>
               <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">
-                    EVENT DESCRIPTION
-                  </span>
-                </div>
-                <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
-                  <span className="text-[17px] font-semibold">
-                    In this event, you have to construct a tower, which is
-                    taller and stable in natural forces by the help of given
-                    materials.
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
-                <div className=" mb-[10px] underline">
-                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
-                </div>
-                <div>
-                  <span className="font-semibold text-[17px]">
-                    Your team consist of 4 members.
-                  </span>
-                </div>
-              </div>
-              <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] ">
                   <span className="font-bold  text-[20px] underline  ">
                     PROBLEM STATEMENT
@@ -145,9 +121,21 @@ const TOWER = () => {
                   </span>
                 </div>
                 <div className="flex justify-center">
-                  <img src={tower_img} className="h-[300px]" />
+                  <img src={tower_img} className="h-[250px]" />
                 </div>
               </div>
+
+              <div className="text-center  mb-[50px]">
+                <div className=" mb-[10px] underline">
+                  <span className="font-bold  text-[20px]">PARTICIPATION</span>
+                </div>
+                <div>
+                  <span className="font-semibold text-[17px]">
+                    Your team consist of 4 members.
+                  </span>
+                </div>
+              </div>
+
               <div className="text-center  mb-[50px]">
                 <div className=" mb-[10px] underline">
                   <span className="font-bold  text-[20px]">
