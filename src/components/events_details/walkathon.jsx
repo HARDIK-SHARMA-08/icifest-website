@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { map_img } from "../../assets";
 
 const WALKATHON = () => {
