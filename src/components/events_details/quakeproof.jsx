@@ -31,36 +31,35 @@ const QUAKE = () => {
               <div className="w-[100px] h-[4px] bg-[#ff583e]  " />
             </div>
             <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
-              <div>
-                <span>Date</span>
-              </div>
-              <div>
-                <span>
-                  Round 1 - 15<sup>th </sup>September 2023
-                </span>
-              </div>
-              <div>
-                <span>
-                  Round 2 - 16<sup>th </sup>September 2023
-                </span>
+              <div className="flex items-center justify-center gap-[10px]">
+                <div>
+                  <div>Date</div>
+                  <div>
+                    Round 1 - 15<sup>th </sup>September 2023 -
+                  </div>{" "}
+                  <div>
+                    {" "}
+                    Round 2 - 16
+                    <sup>th </sup>September 2023 -
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <span>Time</span>
+                  </div>
+                  <div>
+                    <span>01:00 PM to 03:00 PM</span>
+                  </div>
+                  <div>
+                    <span>08:15 AM to 11:00 AM</span>
+                  </div>
+                </div>
               </div>
               <div className="mt-[10px]">
-                <span>Time</span>
-              </div>
-              <div>
-                <span>Round 1 - 01:00 pm to 03:00 pm</span>
-              </div>
-              <div>
-                <span>Round 2 - 08:15 am to 11:00 am</span>
-              </div>
-              <div className="mt-[10px]">
-                <span>Venue</span>
-              </div>
-              <div>
-                <span>Tech zone in football ground</span>
+                <span>Venue: </span> <span>Tech zone in football ground</span>
               </div>
             </div>
-            <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 ">
+            <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px]  ">
               <span>Registration Fee - ₹200 per team</span>
             </div>
             <div className="mt-[10px]">

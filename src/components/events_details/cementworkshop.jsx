@@ -37,7 +37,7 @@ const WORKSHOP = () => {
                 <span>Time - 01:00 pm to 02:00 pm</span>
               </div>
             </div>
-            <div className="font-bold text-[22px] md:text-[28px] leading-none  md:leading-normal mt-[10px] md:mt-0 ">
+            <div className="font-bold text-[22px] md:text-[28px] leading-none  md:leading-normal mt-[10px] ">
               <span>Registration Fee - ₹50 per individual</span>
             </div>
             <a href="https://erp.skit.ac.in/register/r/workshop">

@@ -46,7 +46,7 @@ const TOWER = () => {
                 <span>Venue - Badminton Court, Civil Block</span>
               </div>
             </div>
-            <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 ">
+            <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] ">
               <span>Registration Fee - ₹200 per team</span>
             </div>
             <div className="mt-[10px]">

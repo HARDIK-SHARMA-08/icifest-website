@@ -367,17 +367,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      <div className="text-center text-[14px] md:text-[16px] mb-[20px]">
-        <span>Designed and Developed by </span>
-        <br className="block md:hidden" />
-        <span className="text-blue-500">
-          <a href="https://code-prashant.netlify.app" target="blank">
-            @Code-Prashant
-          </a>
-          .
-        </span>
-      </div>
     </>
   );
 };

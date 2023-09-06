@@ -15,6 +15,7 @@ import {
 import Highlight from "./highlights";
 
 import Counter from "./counter";
+import PrizePool from "./prizepool";
 
 import { Link } from "react-router-dom";
 
@@ -127,7 +128,7 @@ const About = () => {
           </div>
         </div>
       </div>
-
+      <PrizePool />
       <Counter />
 
       <div className="block gap-[150px] lg:gap-[250px]">

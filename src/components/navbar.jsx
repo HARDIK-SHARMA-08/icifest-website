@@ -62,12 +62,12 @@ const Navbar = () => {
                   </div>
                   <div className="text-center hidden md:block  -mt-[5px]">
                     <span className={`duration-300 ${imgSize}`}>
-                      Technology, M & G, Jaipur
+                      Technology, M&G, Jaipur
                     </span>
                   </div>
                   <div className="text-center  block md:hidden leading-none ">
                     <span className={`duration-300 ${imgSize}`}>
-                      Swami Keshvanand Institute of Technology, M & G, Jaipur
+                      Swami Keshvanand Institute of Technology, M&G, Jaipur
                     </span>
                   </div>
                 </div>

@@ -35,7 +35,7 @@ const WALKATHON = () => {
                 <span>Time - 07:00 am to 09:00 am</span>
               </div>
             </div>
-            <div className="font-bold text-[22px] md:text-[28px]  md:mt-0 ">
+            <div className="font-bold text-[22px] md:text-[28px]  mt-[10px] ">
               <span>Registration Fee - ₹50 per individual</span>
             </div>
             <a href="https://erp.skit.ac.in/register/r/Cyclo_Walka">

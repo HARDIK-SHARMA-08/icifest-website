@@ -24,7 +24,8 @@ import BRUSHTALK from "./components/events_details/brushtalk";
 import WORKSHOP from "./components/events_details/cementworkshop";
 import WALKATHON from "./components/events_details/walkathon";
 import Layout from "./layout";
-import GALLERY from "./components/gallery"
+import GALLERY from "./components/gallery";
+
 
 const App = () => {
   return (
@@ -53,7 +54,7 @@ const App = () => {
             <Route path="/let-the-brush-talk" element={<BRUSHTALK />} />
             <Route path="/cement-workshop" element={<WORKSHOP />} />
             <Route path="/cyclothon-walkathon" element={<WALKATHON />} />
-            <Route path="/gallery" element={<GALLERY/>}/>
+            <Route path="/gallery" element={<GALLERY />} />
           </Routes>
           <Footer />
         </>

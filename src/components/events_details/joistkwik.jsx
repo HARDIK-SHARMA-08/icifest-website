@@ -34,36 +34,36 @@ const JK = () => {
               <div className="w-[100px] h-[4px] bg-[#ff583e]  " />
             </div>
             <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
-              <div>
-                <span>Date</span>
-              </div>
-              <div>
-                <span>
-                  Round 1 - 15<sup>th </sup>September 2023
-                </span>
-              </div>
-              <div>
-                <span>
-                  Round 2 - 16<sup>th </sup>September 2023
-                </span>
+              <div className="flex items-center justify-center gap-[10px]">
+                <div>
+                  <div>Date</div>
+                  <div>
+                    Round 1 - 15<sup>th </sup>September 2023 -
+                  </div>{" "}
+                  <div>
+                    {" "}
+                    Round 2 - 16
+                    <sup>th </sup>September 2023 -
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <span>Time</span>
+                  </div>
+                  <div>
+                    <span>11:00 AM to 01:00 PM</span>
+                  </div>
+                  <div>
+                    <span>08:15 AM to 11:00 AM</span>
+                  </div>
+                </div>
               </div>
               <div className="mt-[10px]">
-                <span>Time</span>
-              </div>
-              <div>
-                <span>Round 1 - 11:00 AM to 01:00 PM</span>
-              </div>
-              <div>
-                <span>Round 2 - 08:15 AM to 11:00 AM</span>
-              </div>
-              <div className="mt-[10px]">
-                <span>Venue</span>
-              </div>
-              <div>
+                <span>Venue: </span>
                 <span>Tech zone in football ground</span>
               </div>
             </div>
-            <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 ">
+            <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] ">
               <span>Registration Fee - ₹200 per team</span>
             </div>
             <div className="mt-[10px]">
@@ -72,11 +72,12 @@ const JK = () => {
               </span>
             </div>
             <a href="https://erp.skit.ac.in/register/r/joistkwik">
-            <div className="mt-[10px] font-semibold">
-              <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center">
-                Register Now
-              </button>
-            </div></a>
+              <div className="mt-[10px] font-semibold">
+                <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center">
+                  Register Now
+                </button>
+              </div>
+            </a>
           </div>
         </div>
       </div>

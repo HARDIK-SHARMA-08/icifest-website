@@ -38,7 +38,7 @@ const CRACKTHECAD = () => {
                 <span>Venue - Computer Lab-Ground floor, Civil Block</span>
               </div>
             </div>
-            <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 ">
+            <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] ">
               <span>Registration Fee - ₹50 per individual</span>
             </div>
             <a href="https://erp.skit.ac.in/register/r/crackthecad">
@@ -98,7 +98,7 @@ const CRACKTHECAD = () => {
                   </span>
                 </div>
                 <div className="mx-[20px] md:mx-[120px] xl:mx-[220px] ">
-                  <span className="text-[17px] ">
+                  <span className="text-[17px]">
                     Your task is to design a residential house using AutoCAD
                     software.Design a residential house with a footprint of 30'
                     by 60' using AutoCAD, incorporating essential elements to
@@ -137,6 +137,10 @@ const CRACKTHECAD = () => {
                         with shared bathrooms, Home office/study room, Utility
                         room
                       </span>
+                    </div>
+                    <div>
+                      <span className="font-bold text-[18px] ">NOTE: </span>
+                      <span>Computers will be provided</span>
                     </div>
                   </div>
                 </div>

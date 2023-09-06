@@ -46,7 +46,7 @@ const ARTOFPERSUASION = () => {
               </div>
               {/* <div><span>Tech zone in football ground</span></div> */}
             </div>
-            <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] md:mt-0 ">
+            <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] ">
               <span>Registration Fee - ₹50 per individual</span>
             </div>
             <a href="https://erp.skit.ac.in/register/r/artofpersuasion">
