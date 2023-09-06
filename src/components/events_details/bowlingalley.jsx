@@ -37,16 +37,16 @@ const BA = () => {
               <div className="w-[100px] h-[4px] bg-[#ff583e]  " />
             </div>
             <div className="mt-[15px] font-bold  text-[16px] md:text-[18px]">
-            <div className="flex items-center justify-center gap-[10px]">
+            <div className="flex flex-col items-center justify-center gap-[10px] md:flex-row">
                 <div>
                   <div>Date</div>
                   <div>
-                    Round 1 - 15<sup>th </sup>September 2023 - 
+                    Round 1 - 15<sup>th </sup>September 2023  
                   </div>{" "}
                   <div>
                     {" "}
                     Round 2 - 16
-                    <sup>th </sup>September 2023 - 
+                    <sup>th </sup>September 2023  
                   </div>
                 </div>
                 <div>
@@ -54,10 +54,10 @@ const BA = () => {
                     <span>Time</span>
                   </div>
                   <div>
-                    <span>11:30 AM to 01:00 PM</span>
+                    <span><span className="inline md:hidden"> Round 1</span> - 11:30 AM to 01:00 PM</span>
                   </div>
                   <div>
-                    <span>08:15 AM to 11:00 AM</span>
+                    <span><span className="inline md:hidden"> Round 2</span> - 08:15 AM to 11:00 AM</span>
                   </div>
                 </div>
               </div>
