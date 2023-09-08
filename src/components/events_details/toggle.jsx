@@ -51,6 +51,16 @@ const TOGGLE = () => {
               </button>
             </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details - Paridhi Jain: {" "}
+                <a href="https://wa.me/9929425337" target="blank" className="underline">
+                  {" "}
+                  +91 9929425337
+                </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

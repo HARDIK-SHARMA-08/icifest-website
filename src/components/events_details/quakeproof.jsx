@@ -74,6 +74,16 @@ const QUAKE = () => {
                 </button>
               </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details - Aditi: {" "}
+                <a href="https://wa.me/9079634173" target="blank" className="underline">
+                  {" "}
+                  +91 9079634173
+                </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

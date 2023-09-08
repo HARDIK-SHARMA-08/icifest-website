@@ -78,6 +78,16 @@ const JK = () => {
                 </button>
               </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details - Sanskar: {" "}
+                <a href="https://wa.me/6377829943" target="blank" className="underline">
+                  {" "}
+                  +91 6377829943
+                </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

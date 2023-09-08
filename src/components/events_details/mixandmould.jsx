@@ -41,12 +41,12 @@ const MIXANDMOULD = () => {
                 <div>
                   <div>Date</div>
                   <div>
-                    Round 1 - 15<sup>th </sup>September 2023 
+                    Round 1 - 15<sup>th </sup>September 2023
                   </div>{" "}
                   <div>
                     {" "}
                     Round 2 - 16
-                    <sup>th </sup>September 2023 
+                    <sup>th </sup>September 2023
                   </div>
                 </div>
                 <div>
@@ -56,11 +56,15 @@ const MIXANDMOULD = () => {
                   <div>
                     <span>
                       {" "}
-                      <span className="inline md:hidden"> Round 1</span> - 01:00 PM to 02:00 PM
+                      <span className="inline md:hidden"> Round 1</span> - 01:00
+                      PM to 02:00 PM
                     </span>
                   </div>
                   <div>
-                    <span><span className="inline md:hidden"> Round 2</span> - 09:00 AM to 11:00 AM</span>
+                    <span>
+                      <span className="inline md:hidden"> Round 2</span> - 09:00
+                      AM to 11:00 AM
+                    </span>
                   </div>
                 </div>
               </div>
@@ -69,11 +73,11 @@ const MIXANDMOULD = () => {
               </div>
             </div>
             <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px]">
-              <span>Registration Fee - ₹200 per team</span>
+              <span>Registration Fee - ₹100 per team</span>
             </div>
             <div className="mt-[10px]">
               <span className="font-semibold text-[18px]">
-                All the teams must have 4 members each.
+                All the teams must have 2 members each.
               </span>
             </div>
             <a href="https://erp.skit.ac.in/register/r/mixandmould">
@@ -83,6 +87,22 @@ const MIXANDMOULD = () => {
                 </button>
               </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b>
+                  {" "}
+                  For more details - Falguni Pareta:{" "}
+                  <a
+                    href="https://wa.me/7725908724"
+                    target="blank"
+                    className="underline"
+                  >
+                    {" "}
+                    +91 7725908724
+                  </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

@@ -59,6 +59,16 @@ const MUDADVENTURE = () => {
                 </button>
               </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details - Kashish Arora: {" "}
+                <a href="https://wa.me/9667255455" target="blank" className="underline">
+                  {" "}
+                  +91 9667255455
+                </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

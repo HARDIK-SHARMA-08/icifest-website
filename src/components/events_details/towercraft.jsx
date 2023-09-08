@@ -60,6 +60,16 @@ const TOWER = () => {
                 Register Now
               </button>
             </div></a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details - Bhavesh Sharma: {" "}
+                <a href="https://wa.me/7209770701" target="blank" className="underline">
+                  {" "}
+                  +91 7665001234
+                </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

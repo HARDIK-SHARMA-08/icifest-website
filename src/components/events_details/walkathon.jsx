@@ -45,6 +45,16 @@ const WALKATHON = () => {
                 </button>
               </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details - Vishal Bansiwal: {" "}
+                <a href="https://wa.me/9783140934" target="blank" className="underline">
+                  {" "}
+                  +91 9783140934
+                </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

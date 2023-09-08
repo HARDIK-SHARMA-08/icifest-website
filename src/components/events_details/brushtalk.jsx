@@ -64,6 +64,16 @@ const BRUSHTALK = () => {
                 </button>
               </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details - Aayushi Katyayan: {" "}
+                <a href="https://wa.me/7209770701" target="blank" className="underline">
+                  {" "}
+                  +91 7209770701
+                </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

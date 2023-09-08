@@ -57,6 +57,16 @@ const INNOSTRUCT = () => {
                 </button>
               </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details - Akshita Agarwal: {" "}
+                <a href="https://wa.me/8824948314" target="blank" className="underline">
+                  {" "}
+                  +91 8824948314
+                </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

@@ -48,6 +48,16 @@ const CRACKTHECAD = () => {
                 </button>
               </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details - Yash Mathur: {" "}
+                <a href="https://wa.me/9001799799" target="blank" className="underline">
+                  {" "}
+                  +91 9001799799
+                </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

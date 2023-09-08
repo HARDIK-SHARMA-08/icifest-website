@@ -46,6 +46,7 @@ const ARTOFPERSUASION = () => {
               </div>
               {/* <div><span>Tech zone in football ground</span></div> */}
             </div>
+
             <div className="font-bold text-[22px] md:text-[28px] leading-none  mt-[10px] ">
               <span>Registration Fee - ₹50 per individual</span>
             </div>
@@ -57,6 +58,15 @@ const ARTOFPERSUASION = () => {
                 </button>
               </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details -</b> Anushka Jain: {" "}
+                <a href="https://wa.me/6377561290" target="blank" className="underline">
+                  {" "}
+                  &nbsp;+91 6377561290
+                </a>
+              </span>
+            </div>
           </div>
         </div>
       </div>

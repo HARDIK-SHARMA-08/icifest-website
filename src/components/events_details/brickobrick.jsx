@@ -64,6 +64,16 @@ const BOB = () => {
               </button>
             </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details - Kaushal Meena: {" "}
+                <a href="https://wa.me/8529058592" target="blank" className="underline">
+                  {" "}
+                  +91 8529058592
+                </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

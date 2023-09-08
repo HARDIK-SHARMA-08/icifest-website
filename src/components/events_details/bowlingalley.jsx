@@ -82,6 +82,16 @@ const BA = () => {
                 </button>
               </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details - Kunal Vishnoi: {" "}
+                <a href="https://wa.me/8769177678" target="blank" className="underline">
+                  {" "}
+                  &nbsp;+91 8769177678
+                </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

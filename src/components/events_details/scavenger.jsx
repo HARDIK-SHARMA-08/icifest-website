@@ -51,6 +51,16 @@ const SH = () => {
                 </button>
               </div>
             </a>
+            <div className="mt-[10px]">
+              <span>
+                <b> For more details - Aditya Poonia: {" "}
+                <a href="https://wa.me/8302367735" target="blank" className="underline">
+                  {" "}
+                  +91 8302367735
+                </a>
+                </b>
+              </span>
+            </div>
           </div>
         </div>
       </div>
