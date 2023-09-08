@@ -117,7 +117,8 @@ const SH = () => {
                     in which the organizers prepare a list of specific items,
                     challenges, or activities that the participants must find,
                     complete, or perform. There are 7 levels in the game. All
-                    the levels are contrary and stimulating.
+                    the levels are contrary and stimulating. <br />
+                    A map of SKIT campus will be provided to every team.
                   </span>
                 </div>
                 <div className="text-left flex justify-center">
