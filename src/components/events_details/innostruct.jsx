@@ -18,7 +18,7 @@ const INNOSTRUCT = () => {
           <div className="bg-[#ffb4a7] px-[20px] md:px-[40px] py-[30px] rounded-[30px] text-center">
             <div>
               <span className="font-extrabold text-[38px] md:text-[50px] uppercase">
-                INNOSTRUCT
+                Kabad se Jugaad!
               </span>
             </div>
             <div className="mb-[10px]">
@@ -59,11 +59,17 @@ const INNOSTRUCT = () => {
             </a>
             <div className="mt-[10px]">
               <span>
-                <b> For more details - Akshita Agarwal: {" "}
-                <a href="https://wa.me/8824948314" target="blank" className="underline">
+                <b>
                   {" "}
-                  +91 8824948314
-                </a>
+                  For more details - Akshita Agarwal:{" "}
+                  <a
+                    href="https://wa.me/8824948314"
+                    target="blank"
+                    className="underline"
+                  >
+                    {" "}
+                    +91 8824948314
+                  </a>
                 </b>
               </span>
             </div>

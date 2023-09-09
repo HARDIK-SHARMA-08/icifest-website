@@ -169,7 +169,7 @@ const MIXANDMOULD = () => {
                 </div>
                 <div>
                   <span className="font-semibold text-[17px]">
-                    In teams. Must have 4 members each.
+                    In teams. Must have 2 members each.
                   </span>
                 </div>
               </div>

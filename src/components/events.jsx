@@ -298,7 +298,7 @@ const FestEvent = () => {
                   className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
             tracking-wide"
                 >
-                  Innostruct
+                  Kabad se Jugaad!
                 </span>
               </div>
             </div>
