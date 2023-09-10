@@ -25,6 +25,7 @@ import WORKSHOP from "./components/events_details/cementworkshop";
 import WALKATHON from "./components/events_details/walkathon";
 import Layout from "./layout";
 import GALLERY from "./components/gallery";
+import RESPONSE from "./components/response"
 
 
 const App = () => {
@@ -55,6 +56,7 @@ const App = () => {
             <Route path="/cement-workshop" element={<WORKSHOP />} />
             <Route path="/cyclothon-walkathon" element={<WALKATHON />} />
             <Route path="/gallery" element={<GALLERY />} />
+            <Route path="/response" element={<RESPONSE />} />
           </Routes>
           <Footer />
         </>

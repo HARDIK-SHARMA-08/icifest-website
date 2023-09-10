@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const SH = () => {
   const [activeButton, setActiveButton] = useState(0);
@@ -44,20 +45,26 @@ const SH = () => {
                 All the teams must have 4 members each.
               </span>
             </div>
-            <a href="https://erp.skit.ac.in/register/r/scavengehunt">
+            <Link to="/response">
               <div className="mt-[10px] font-semibold">
                 <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center">
                   Register Now
                 </button>
               </div>
-            </a>
+            </Link>
             <div className="mt-[10px]">
               <span>
-                <b> For more details - Aditya Poonia: {" "}
-                <a href="https://wa.me/8302367735" target="blank" className="underline">
+                <b>
                   {" "}
-                  +91 8302367735
-                </a>
+                  For more details - Aditya Poonia:{" "}
+                  <a
+                    href="https://wa.me/8302367735"
+                    target="blank"
+                    className="underline"
+                  >
+                    {" "}
+                    +91 8302367735
+                  </a>
                 </b>
               </span>
             </div>
@@ -117,8 +124,8 @@ const SH = () => {
                     in which the organizers prepare a list of specific items,
                     challenges, or activities that the participants must find,
                     complete, or perform. There are 7 levels in the game. All
-                    the levels are contrary and stimulating. <br />
-                    A map of SKIT campus will be provided to every team.
+                    the levels are contrary and stimulating. <br />A map of SKIT
+                    campus will be provided to every team.
                   </span>
                 </div>
                 <div className="text-left flex justify-center">
@@ -143,8 +150,13 @@ const SH = () => {
                           not allowed.
                         </li>
                         <li>
-                          5. . All the 4 members should be present at the time
-                          of answer checking.
+                          5. All the 4 members should be present at the time of
+                          answer checking.
+                        </li>
+                        <li>
+                          6. The team leader will be very significant for the
+                          event. <br /> There might be one or more levels in which the
+                          leader will perform on the behalf of the entire team.
                         </li>
                       </ul>
                     </div>

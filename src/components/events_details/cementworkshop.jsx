@@ -49,10 +49,10 @@ const WORKSHOP = () => {
             </a>
             <div className="mt-[10px]">
               <span>
-                <b> For more details - Vishal Bansiwal: {" "}
-                <a href="https://wa.me/9783140934" target="blank" className="underline">
+                <b> For more details - Puneet Dadhich: {" "}
+                <a href="https://wa.me/8619106882" target="blank" className="underline">
                   {" "}
-                  +91 9783140934
+                  +91 8619106882
                 </a>
                 </b>
               </span>
@@ -72,7 +72,8 @@ const WORKSHOP = () => {
                 {" "}
                 Hands on experience with the right proportions of materials and
                 facilitate yourself for industrial exposure and resolve queries
-                with experts.
+                with experts. <br />
+                <b>TOPIC: </b> Self-Compacting Concrete (SCC) 
               </span>
             </div>
             <div className="mt-[20px]">

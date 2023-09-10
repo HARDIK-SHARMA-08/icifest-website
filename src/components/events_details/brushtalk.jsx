@@ -45,7 +45,7 @@ const BRUSHTALK = () => {
                 </span>
               </div>
               <div className="mt-[10px]">
-                <span>Time - 01:00 pm to 02:00 pm</span>
+                <span>Time - 09:00 am to 11:00 am</span>
               </div>
               <div className="mt-[10px]">
                 <span>Venue</span>

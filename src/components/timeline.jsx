@@ -121,7 +121,7 @@ const Timeline = () => {
     },
     {
       Event: {
-        1: "Innostruct",
+        1: "Kabad se Jugaad!",
       },
       Timing: "12:30 pm - 02:00 pm",
     },

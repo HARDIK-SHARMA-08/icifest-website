@@ -79,6 +79,8 @@ import brush_img from "./event-pics/brush.png";
 import map_img from "./map.png";
 import PrizePool from "./prize.png";
 
+import ResponseLogo from "./responselogo.png";
+
 export {
   bg_video_desktop,
   bg_video_mobile,
@@ -145,4 +147,5 @@ export {
   brush_img,
   map_img,
   PrizePool,
+  ResponseLogo
 };
