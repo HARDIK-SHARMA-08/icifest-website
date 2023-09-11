@@ -159,7 +159,7 @@ const QUAKE = () => {
                     <span>Base - 13x13 cm</span>
                   </div>
                   <div>
-                    <span>Height - 60 cm (minimum)</span>
+                    <span>Height - 70 cm (minimum)</span>
                   </div>
                 </div>
               </div>
