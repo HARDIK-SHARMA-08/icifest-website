@@ -20,7 +20,7 @@ import {
   brush_img,
 } from "../assets";
 
-const FestEvent = () => {
+const Jecrc = () => {
   return (
     <>
       <div className="text-center mb-[20px] md:mb-[40px] mt-[10px]">
@@ -29,106 +29,8 @@ const FestEvent = () => {
         </span>
       </div>
 
-      <div className="text-center mb-[20px] md:mb-[40px] mt-[10px] text-[26px] md:text-[30px] font-extrabold">Registration Opened</div>
-
       <div className="flex flex-wrap justify-center gap-8">
-
-      <Link to="/cyclothon-walkathon">
-          <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
-            <div className="flex justify-center items-center ">
-              <div className="-z-10 overflow-hidden">
-                <img src={cw} className="rounded-[30px] " />
-              </div>
-              <div className="absolute text-center ">
-                <span
-                  className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
-            tracking-wide"
-                >
-                  Cyclothon & <br />
-                  Walkathon
-                </span>
-              </div>
-            </div>
-            <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black">
-              <span className="text-white font-semibold hover:text-[#ff583e] duration-200">
-                Register Now
-              </span>
-            </div>
-          </div>
-        </Link>
-
-        <Link to="/scanvenger-hunt">
-          <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
-            <div className="flex justify-center items-center ">
-              <div className="-z-10 overflow-hidden">
-                <img src={th} className="rounded-[30px] " />
-              </div>
-              <div className="absolute text-center">
-                <span
-                  className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
-            tracking-wide"
-                >
-                  Scavenger <br />
-                  Hunt
-                </span>
-              </div>
-            </div>
-            <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black">
-              <span className="text-white font-semibold hover:text-[#ff583e] duration-200">
-                Register Now
-              </span>
-            </div>
-          </div>
-        </Link>
-
-        <Link to="/the-mud-adventure ">
-          <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
-            <div className="flex justify-center items-center ">
-              <div className="-z-10 overflow-hidden">
-                <img src={mud_img} className="rounded-[30px] " />
-              </div>
-              <div className="absolute text-center">
-                <span
-                  className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
-            tracking-wide"
-                >
-                  The Mudventure
-                </span>
-              </div>
-            </div>
-            <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black">
-              <span className="text-white font-semibold hover:text-[#ff583e] duration-200">
-                Register Now
-              </span>
-            </div>
-          </div>
-        </Link>
-</div>
-        <div className="text-center mb-[20px] md:mb-[40px] mt-[50px] text-[26px] md:text-[30px] font-extrabold">Registration Closed</div>
-
-        <div className="flex flex-wrap justify-center gap-8">
-        <Link to="/joist-kwik">
-          <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
-            <div className="flex justify-center items-center ">
-              <div className="-z-10 overflow-hidden">
-                <img src={jw} className="rounded-[30px] " />
-              </div>
-              <div className="absolute">
-                <span
-                  className="font-extrabold text-white md:text-[32px] text-[28px] uppercase
-             tracking-wide "
-                >
-                  JOIST KWIK
-                </span>
-              </div>
-            </div>
-            <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black">
-              <span className="text-white font-semibold hover:text-[#ff583e] duration-200">
-                Register Now
-              </span>
-            </div>
-          </div>
-        </Link>
+    
 
         <Link to="/bolwing-alley">
           <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -175,7 +77,7 @@ const FestEvent = () => {
             </div>
           </div>
         </Link>
-
+        
         <Link to="/toggle">
           <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
             <div className="flex justify-center items-center ">
@@ -199,7 +101,6 @@ const FestEvent = () => {
           </div>
         </Link>
 
-       
 
         <Link to="/cement-workshop">
           <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -224,7 +125,6 @@ const FestEvent = () => {
           </div>
         </Link>
 
-      
 
         <Link to="/tower-craft ">
           <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
@@ -367,7 +267,28 @@ const FestEvent = () => {
           </div>
         </Link>
 
-       
+        <Link to="/the-mud-adventure ">
+          <div className="hover:scale-105 duration-200 max-[320px]:w-[290px]">
+            <div className="flex justify-center items-center ">
+              <div className="-z-10 overflow-hidden">
+                <img src={mud_img} className="rounded-[30px] " />
+              </div>
+              <div className="absolute text-center">
+                <span
+                  className="font-extrabold text-white text-[28px] md:text-[32px] uppercase
+            tracking-wide"
+                >
+                  The Mudventure
+                </span>
+              </div>
+            </div>
+            <div className="text-center -mt-[40px] rounded-b-[40px] py-[10px] bg-black">
+              <span className="text-white font-semibold hover:text-[#ff583e] duration-200">
+                Register Now
+              </span>
+            </div>
+          </div>
+        </Link>
 
         <Link to="/let-the-brush-talk ">
           {" "}
@@ -401,4 +322,4 @@ const FestEvent = () => {
   );
 };
 
-export default FestEvent;
+export default Jecrc;

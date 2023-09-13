@@ -45,13 +45,20 @@ const SH = () => {
                 All the teams must have 4 members each.
               </span>
             </div>
-            <Link to="/response">
+            <a href="https://erp.skit.ac.in/register/r/scavengehunt">
               <div className="mt-[10px] font-semibold">
                 <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center">
                   Register Now
                 </button>
               </div>
-            </Link>
+            </a>
+            {/* <Link to="/response">
+              <div className="mt-[10px] font-semibold">
+                <button className="bg-[#ff583e] hover:bg-white text-white hover:text-[#ff583e] duration-300 hover:ring-1 ring-[#ff583e] pt-[9px] pb-[9px] pl-[18px] pr-[18px] lg:pt-[11px] lg:pb-[11px] lg:pl-[20px] lg:pr-[20px] rounded-[8px] text-[14px] lg:text-[16px]  self-center">
+                  Register Now
+                </button>
+              </div>
+            </Link> */}
             <div className="mt-[10px]">
               <span>
                 <b>
@@ -155,8 +162,9 @@ const SH = () => {
                         </li>
                         <li>
                           6. The team leader will be very significant for the
-                          event. <br /> There might be one or more levels in which the
-                          leader will perform on the behalf of the entire team.
+                          event. <br /> There might be one or more levels in
+                          which the leader will perform on the behalf of
+                          the entire team.
                         </li>
                       </ul>
                     </div>
